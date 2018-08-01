@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="pinyouGou:war exploded">
+    <output-path>$PROJECT_DIR$/target/pinyouGou</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="pinyouGou" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/pinyouGou/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="pinyouGou/web/Web" />
+    </root>
+  </artifact>
+</component>
